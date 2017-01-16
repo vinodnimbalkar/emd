@@ -289,7 +289,7 @@ $conn->close();
         MH
   </address>
   <address>
-                <strong> Mayur Pawar <a href="mailto:mp45@gmail.com">Send Mail</a></strong><br>
+                //Other Project Partner name would be here...
         FYMCA, BVIMIT, Sec-8<br>
         Belapur, Navi Mumbai<br>
         MH
