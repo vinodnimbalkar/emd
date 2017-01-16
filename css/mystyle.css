@@ -1,0 +1,76 @@
+.img { width: 1310px; height: 300px; border:2px solid #fff; background: url('/img/bg.jpg') no-repeat; box-shadow: 10px 10px 5px #ccc; 
+	}
+
+#wod{ position: relative; }
+#wod {background: #f1f1f1;}
+#wod p{ color: #000000; font-size: 1em; line-height: 2; -webkit-columns: 1; text-align:justify; margin-left: 22px; margin-right: 22px; margin-bottom: 1px; }
+.pad-normal{ padding-top: 22px; padding-bottom: 22px; }
+.page-wod{ border: 2px solid #f1f1f1; display: inline-block; margin-bottom: 66px;  }
+.page-wod h3{ float: left; border-right: 0px solid #f1f1f1; padding: 7px 22px 7px 22px; }
+.page-wod i{ float: right; font-size: 33px; margin: 10px 6px 0px 11px; }
+
+#quote{ position: relative; }
+#quote {background: #222;}
+.divider-hero{ font-size: 2em; line-height: 1.4; }
+.pad-large{ padding-top: 88px; padding-bottom: 88px; }
+#quote p{ color: #ffffff; font-size: 1em; line-height: 2; -webkit-columns: 1; text-align:center; margin-left: 22px; margin-right: 22px; margin-bottom: 0px; }
+
+#qod{ position: relative; }
+#qod {background: #f1f1f1;}
+#qod p{ color: #000000; font-size: 1em; line-height: 2; -webkit-columns: 1; text-align: justify; margin-left: 22px; margin-right: 22px; margin-bottom: 1px; }
+.pad-normal{ padding-top: 66px; padding-bottom: 66px; }
+.page-qod{ border: 2px solid #222; display: inline-block; margin-bottom: 66px; box-shadow:7px 7px 5px #ccc }
+.page-qod h3{ float: left; border-right: 0px solid #222; padding: 7px 22px 7px 22px; text-shadow: 2px 2px #ccc;}
+.page-qod i{ float: right; font-size: 33px; margin: 10px 6px 0px 11px; }
+
+#about{ position: relative; }
+
+#about {background: #ffffff;}
+#about p{ font-size: 1em; font-family: 'Vollkorn',"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; line-height: 1.4; -webkit-columns: 2; text-align: justify; margin-left: 100px; margin-right: 66px; margin-bottom: 100px; }
+#about p:first-letter{ float: left; font-size: 75px; font-family: serif; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; }
+
+.pad-normal{ padding-top: 66px; padding-bottom: 66px; }
+.page-about{ border: 2px solid #222; display: inline-block; margin-bottom: 66px;  }
+.page-about h3{ float: left; border-right: 0px solid #222; padding: 7px 22px 7px 22px; }
+.page-about i{ float: right; font-size: 33px; margin: 10px 6px 0px 11px; }
+
+#help{ position: relative; }
+
+#help {background: #222;}
+#help p{ color: #ffffff; font-size: 1em; line-height: 1; -webkit-columns: ; text-align: left; margin-left: 22px; margin-right: 22px; margin-bottom: 5px; }
+#help ul{color: #ffffff; margin-left: 44px; margin-right: 1px;}
+
+.pad-normal{ padding-top: 22px; padding-bottom: 22px; }
+.page-help{ border: 2px solid #ffffff; display: inline-block; margin-bottom: 66px;  }
+.page-help h3{ color:#ffffff; float: left; border-right: 0px solid #ffffff; padding: 7px 22px 7px 22px; }
+.page-help i{ float: right; font-size: 33px; margin: 10px 6px 0px 11px; }
+
+#feedback{ position: relative; }
+#feedback {background: #ffffff;}
+.pad-normal{ padding-top: 66px; padding-bottom: 66px; }
+.page-feedback{ border: 2px solid #222; display: inline-block; margin-bottom: 66px;  }
+.page-feedback h3{ float: left; border-right: 0px solid #222; padding: 7px 22px 7px 22px; }
+
+#contact{ position: relative; }
+
+#contact {background: #222;}
+#contact p{ color: #ffffff; font-size: 1em; line-height: 1; -webkit-columns: ; text-align: center; margin-left: 22px; margin-right: 22px; margin-bottom: 5px; }
+#contact h5{ color: #ffffff; font-size: 1em; line-height: 1; -webkit-columns:2 ; text-align: center; margin-left: 30%; margin-right: 30%; margin-bottom: 5px; }
+.pad-normal{ padding-top: 22px; padding-bottom: 22px; }
+.page-contact{ border: 2px solid #ffffff; display: inline-block; margin-bottom: 30px; box-shadow:2px 2px 10px #ccc}
+.page-contact h3{ color:#ffffff; float: left; border-right: 0px solid #ffffff; padding: 7px 22px 7px 22px; }
+.copy-text{ margin-bottom: 66px; font-size: 0.6em; }
+
+.loader_img { 
+    margin: auto; display: block; position: relative; top: 31%; 
+    -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+#text p:hover{color: #5cdc00;}
+#text p{color: #222; font-size: 1em; line-height: 1; text-align: center; margin-left: 0px; margin-right: 0px; margin-bottom: 0px;}

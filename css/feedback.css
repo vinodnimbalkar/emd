@@ -1,0 +1,85 @@
+<style type="text/css">
+.form-feedback {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-feedback li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-feedback label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-feedback input[type=text], 
+.form-feedback input[type=date],
+.form-feedback input[type=datetime],
+.form-feedback input[type=number],
+.form-feedback input[type=search],
+.form-feedback input[type=time],
+.form-feedback input[type=url],
+.form-feedback input[type=email],
+textarea, 
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+}
+.form-feedback input[type=text]:focus, 
+.form-feedback input[type=date]:focus,
+.form-feedback input[type=datetime]:focus,
+.form-feedback input[type=number]:focus,
+.form-feedback input[type=search]:focus,
+.form-feedback input[type=time]:focus,
+.form-feedback input[type=url]:focus,
+.form-feedback input[type=email]:focus,
+.form-feedback textarea:focus, 
+.form-feedback select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.form-feedback .field-divided{
+    width: 25%;
+}
+
+.form-feedback .field-long{
+    width: 50%;
+}
+.form-feedback .field-select{
+    width: 50%;
+}
+.form-feedback .field-textarea{
+    height: 100px;
+}
+.form-feedback input[type=submit], .form-feedback input[type=button]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-feedback input[type=submit]:hover, .form-feedback input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-feedback .required{
+    color:red;
+}
+</style>
